@@ -4,7 +4,10 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello from arch btw")
-	add()
+	res := add()
+
+	fmt.Println("results => " , res)
+
 }
 
 func add() int{ 
